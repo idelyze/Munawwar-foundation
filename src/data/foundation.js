@@ -427,9 +427,9 @@ export const foundation = {
   },
   team: [
     {
-      name: "Sabah Munawwar Farooqi",
+      name: "Saba Munawwar Farooqi",
       role: "President",
-      image: "/images/team/Sabah .jpeg",
+      image: "/images/team/saba .jpeg",
     },
     {
       name: "Farha Farooqui",
@@ -439,15 +439,12 @@ export const foundation = {
     {
       name: "S. Nadir Ali",
       role: "Secretary",
-      // Temporary image assignment; confirm later.
-      image: "/images/team/IMG-20241018-WA0006.jpg",
+      image: "/images/team/S. Nadir Ali.png",
     },
     {
       name: "S. Yasir Ali",
       role: "Treasurer",
-      // Temporary image assignment; confirm later.
-      image:
-        "/images/team/WhatsApp_Image_2025-01-19_at_17.40.52_1226bf86-removebg-preview (1).png",
+      image: "/images/team/S. Yasir Ali.jpg",
     },
     {
       name: "Jaza A. Khan",
@@ -462,9 +459,7 @@ export const foundation = {
     {
       name: "Amay R. Dash",
       role: "Member",
-      // Temporary image assignment; confirm later.
-      image:
-        "/images/team/WhatsApp_Image_2025-01-19_at_19.38.56-removebg-preview.png",
+      image: "/images/team/Amay R. Dash.png",
     },
   ],
   teenSquad: [
