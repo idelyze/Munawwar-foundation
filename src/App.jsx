@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import SiteLayout from "./layouts/SiteLayout";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -77,6 +78,7 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }
