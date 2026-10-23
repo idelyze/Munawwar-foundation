@@ -4,13 +4,14 @@ import ImagePlaceholder from "../components/ImagePlaceholder";
 import TeamCard from "../components/TeamCard";
 import CTASection from "../components/CTASection";
 import ScrollReveal from "../components/ScrollReveal";
+import { h6 } from "framer-motion/client";
 export default function About() {
   return (
     <>
       <section className="page-hero section">
         <div className="container narrow">
           <div className="eyebrow">About Munawwar Foundation</div>
-          <h1>People first. Practical action. Long-term possibility.</h1>
+          <h2>The Story Behind Munawwar Foundation - A Mission of Compassion. A Future of Hope.</h2>
           <p className="lead">{foundation.story.body}</p>
         </div>
       </section>
@@ -24,11 +25,11 @@ export default function About() {
           </ScrollReveal>
           <ScrollReveal>
             <div className="eyebrow">Our story</div>
-            <h2>Created in memory of Munawwar.</h2>
+            <h2>A Mother’s Legacy A Lifetime of Inspiration</h2>
             <p>{foundation.story.body}</p>
             <div className="values">
               <div>
-                <strong>Mission</strong>
+                <strong>From Personal Loss to a Purpose Beyond Self</strong>
                 <span>{foundation.mission}</span>
               </div>
               <div>

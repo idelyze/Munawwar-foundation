@@ -390,22 +390,24 @@ export const foundation = {
       "The Foundation was born from a desire to carry forward Munawwar’s legacy of kindness and service. The work is a tribute to a life remembered for compassion, strength and the ability to make people feel valued.",
   },
   story: {
-    title: "A foundation created in memory of Munawwar.",
-    body: "Munawwar Foundation was created as a tribute to Sabah Munawwar Farooqi’s mother, Munawwar. The Foundation’s work carries forward a legacy of kindness and service through programs that support education, healthcare, skills, livelihoods and community wellbeing.",
+    title: "Honouring a Legacy: The Story Behind Munawwar Foundation.",
+    body: "Munawwar was more than a mother. She was a source of strength, a guiding light, and an embodiment of love, kindness, and selflessness. Her presence brought comfort, her words offered reassurance, and her compassion made people feel valued and cared for. Her life left an enduring impression on those around her. The values she cherished-humanity, generosity, empathy, and the willingness to help others-became a lasting source of inspiration. Losing her left an irreplaceable void. Yet, amid the pain of that loss, a profound realisation emerged: the most meaningful way to honour a life devoted to love is to allow that love to continue touching other lives. From this belief grew the vision of Munawwar Foundation ",
     image: image("story-legacy"),
   },
   mission:
-    "Every individual deserves the opportunity to thrive. Through education, healthcare and community development, Munawwar Foundation seeks to create sustainable solutions that address societal challenges and empower individuals to reach their full potential.",
-  vision:
-    "An inclusive and self-reliant society where people can access knowledge, training, livelihood opportunities and the support needed to live with dignity and purpose.",
-  focusAreas: [
-    "Education",
-    "Skill development",
-    "Women empowerment",
-    "Healthcare and health awareness",
-    "Community development",
-    "Environmental action",
-  ],
+  "Every individual deserves the opportunity to thrive. Through education, healthcare and community development, Munawwar Foundation seeks to create sustainable solutions that address societal challenges and empower individuals to reach their full potential.",
+
+vision:
+  "An inclusive and self-reliant society where people can access knowledge, training, livelihood opportunities and the support needed to live with dignity and purpose.",
+
+focusAreas: [
+  "Education",
+  "Skill development",
+  "Women empowerment",
+  "Healthcare and health awareness",
+  "Community development",
+  "Environmental action",
+],
   registration: {
     registrationNo: "01/01/01/41159/24",
     ngoDarpanId: "MP/2024/0459573",

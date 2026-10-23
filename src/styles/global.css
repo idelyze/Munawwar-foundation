@@ -262,17 +262,34 @@ h3 {
   z-index: 2;
   padding-bottom: 110px;
 }
-.hero-copy {
-  max-width: 980px;
+.hero-copy p:not(.hero-tagline) {
+  max-width: 610px;
+  font-size: 18px;
+  color: #e2ece9;
 }
 .hero h1 {
   max-width: 980px;
   margin-bottom: 30px;
+  line-height: 1.05;
 }
+
+.hero-tagline {
+  font-family: var(--serif);
+  font-size: clamp(32px, 4vw, 56px);
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  margin: 0 0 28px;
+  color: inherit;
+  max-width: 900px;
+}
+
 .hero h1 > span {
   display: block;
   overflow: hidden;
+  padding-bottom: 0.12em;
 }
+
 .hero h1 span span {
   display: block;
 }
@@ -333,10 +350,19 @@ h3 {
   gap: 100px;
   align-items: end;
 }
-.split-intro h2 {
-  font-size: clamp(46px, 6vw, 82px);
-  max-width: 750px;
+.split-intro > div:first-child {
+  min-width: 0;
 }
+
+.split-intro h2 {
+  font-size: clamp(42px, 5.1vw, 70px);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+  max-width: 680px;
+  overflow-wrap: normal;
+  text-wrap: balance;
+}
+
 .split-intro .text-link {
   margin-top: 24px;
 }

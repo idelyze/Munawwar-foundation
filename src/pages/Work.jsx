@@ -18,10 +18,9 @@ export default function Work() {
       <section className="page-hero section">
         <div className="container narrow">
           <div className="eyebrow">Our Work</div>
-          <h1>From learning to livelihoods, health to community care.</h1>
+          <h2>Turning Compassion into Action and Purpose into Progress</h2>
           <p className="lead">
-            A growing set of programs designed around practical needs and human
-            dignity.
+          At Munawwar Foundation, we believe everyone deserves dignity, opportunity, and a better life. Through initiatives in education, skill development, healthcare, environmental awareness, and community welfare, we empower individuals, support underserved communities, and work towards a more inclusive and compassionate society.
           </p>
         </div>
       </section>

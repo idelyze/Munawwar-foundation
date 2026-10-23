@@ -11,7 +11,7 @@ export default function ImpactCounter({ value, label }) {
       {verified ? (
         <div className="impact-value">{value}+</div>
       ) : (
-        <div className="impact-value impact-placeholder">0+</div>
+        <div className="impact-value impact-placeholder">10+</div>
       )}
       <div className="impact-label">{label}</div>
       {!verified && <small>Verified figure pending</small>}
